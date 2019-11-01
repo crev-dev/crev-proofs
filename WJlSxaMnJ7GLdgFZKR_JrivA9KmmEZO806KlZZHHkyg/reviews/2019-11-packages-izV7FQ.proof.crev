@@ -28,3 +28,29 @@ comment: |
 iImFc4Xc7PqePBAEDvWjhS7QsM3y5fhSgkiA3Vpn_h_RQII4LYOw2h929NE-jo676vf9uEe1o6sEj9TnJHcXBw
 -----END CREV PACKAGE REVIEW-----
 
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-11-01T20:57:03.392498692+01:00"
+from:
+  id-type: crev
+  id: WJlSxaMnJ7GLdgFZKR_JrivA9KmmEZO806KlZZHHkyg
+  url: "https://github.com/vorner/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: pipe
+  version: 0.2.0
+  revision: 7f2ff2470695895e353576e4ef3af0109f430ab6
+  digest: IxMaY7sIjbaqOq2cchykIQS_C-1SPGuAphOFJPYsjh8
+review:
+  thoroughness: medium
+  understanding: high
+  rating: positive
+comment: |
+  There are probably few places where it could be made little faster or more
+  idiomatic. Apart from that, it's a small and simple crate that does what it
+  should and the tests seem adequate to the simplicity of the code. No unsafe
+  too.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+iQ66_Rw5HC4LNmgh7WSuGF5Go1Rw_r3hpt3-1W7_zTO_yir97ltu6h2I1oJp-8tf8OCgM3I2lfbbEfygWLIUDg
+-----END CREV PACKAGE REVIEW-----
+
