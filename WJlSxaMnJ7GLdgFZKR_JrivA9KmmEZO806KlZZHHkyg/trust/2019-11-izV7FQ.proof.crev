@@ -14,3 +14,19 @@ trust: medium
 KJ2K-zO4O6HuVEv0Yq2AWDUj23JB3uxpmWh2c4qRkx9Mplx11jAEYPr96XSMGvhidzEIZfGPhxCaRNutrngJCw
 -----END CREV TRUST-----
 
+-----BEGIN CREV TRUST -----
+version: -1
+date: "2019-11-01T20:12:19.674815020+01:00"
+from:
+  id-type: crev
+  id: WJlSxaMnJ7GLdgFZKR_JrivA9KmmEZO806KlZZHHkyg
+  url: "https://github.com/vorner/crev-proofs"
+ids:
+  - id-type: crev
+    id: aD4K0g6AcSKUDp3VPF7u4hM94zEkqjWeRQwmabLBcV0
+    url: "https://github.com/Mark-Simulacrum/crev-proofs"
+trust: medium
+-----BEGIN CREV TRUST SIGNATURE-----
+sWmKlnUVUMnWs08-364CLaRZvTAa2QrFEVbGVqwGZOS49kj6dv3BYpZxDg-OGCE3CaMJKytqQqm6ZVJ9w3dAAw
+-----END CREV TRUST-----
+
