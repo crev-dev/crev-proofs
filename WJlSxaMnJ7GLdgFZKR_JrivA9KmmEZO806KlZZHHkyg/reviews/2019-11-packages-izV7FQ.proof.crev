@@ -1,0 +1,30 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-11-01T13:42:04.586614569+01:00"
+from:
+  id-type: crev
+  id: WJlSxaMnJ7GLdgFZKR_JrivA9KmmEZO806KlZZHHkyg
+  url: "https://github.com/vorner/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atomic_refcell
+  version: 0.1.4
+  revision: 76069f44745966b6fc4434ee0803bb364fafa923
+  digest: eCyxtJzX9uSdzs-VL7-KG8LFCQJPXo54RV2LAzXrGxg
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+issues:
+  - id: "https://github.com/bholley/atomic_refcell/pull/6"
+    severity: low
+    comment: ""
+comment: |
+  It mostly looks to do what it says and seems well written.
+  
+  There's one concern about possible UB, though one that's unlikely to have any
+  practical effect.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+iImFc4Xc7PqePBAEDvWjhS7QsM3y5fhSgkiA3Vpn_h_RQII4LYOw2h929NE-jo676vf9uEe1o6sEj9TnJHcXBw
+-----END CREV PACKAGE REVIEW-----
+
