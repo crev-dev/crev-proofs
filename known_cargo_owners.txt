@@ -67,6 +67,7 @@ tomaka
 tyoverby
 vks
 withoutboats
+vorner
 
 github:rust-lang:libs
 github:rust-lang-nursery:log-owners
