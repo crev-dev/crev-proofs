@@ -27,3 +27,26 @@ comment: "It mostly looks to do what it says and seems well written. The previou
 zekpTARbgRa8PJnXkb_8Q5P7HaN5YqVtKT1Ua2jtCBPY0i5ZL5Amgu-Gb9gJNcYOrs3IKFpkc6Rvz9FeckuADg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-19T21:07:21.839408858+01:00"
+from:
+  id-type: crev
+  id: WJlSxaMnJ7GLdgFZKR_JrivA9KmmEZO806KlZZHHkyg
+  url: "https://github.com/vorner/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: hash_hasher
+  version: 2.0.0
+  revision: 2de7c1ac30c2700cad11d669a72c3f885484fd59
+  digest: zDj4jaOJ0taSgknxXzojLnzPZaXro-v3NQmSKR929Bw
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: "The code is trivial and looks good enough for creating hashes given already\nhashed data, at least for non-security related scenarios.\n\nThere might be some cases where the given hashes don't use the full range of\nu64, though (in case a structure of several small fields is used, for\nexample). This might lead to suboptimal distribution and collisions in a\nHashMap and might come as some surprise. On the other hand, anything without\nthis problem would probably require something more complex and likely slower\nand this seems to aim for things like bittorrent hashes and git commits,\nwhere the data is an [u8].\n"
+----- SIGN CREV PROOF -----
+OQr86_lL6-b-Vp4VbvJi1sVk0M06R-0GPsxEshAYF8KBQqnni3nYjvdlcWE5sUKYykKYWkX86NeQAxDaUtnADw
+----- END CREV PROOF -----
+
