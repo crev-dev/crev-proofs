@@ -1,0 +1,29 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-19T19:54:42.122672794+01:00"
+from:
+  id-type: crev
+  id: WJlSxaMnJ7GLdgFZKR_JrivA9KmmEZO806KlZZHHkyg
+  url: "https://github.com/vorner/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: atomic_refcell
+  version: 0.1.5
+  revision: 71b316a042ab5f1a76d0d9b27e1fa9a02711ec36
+  digest: vewvSM5NUCEh2vI96uErNuqhA9U_MTCNHd-4fmAt3y8
+package-diff-base:
+  source: "https://crates.io"
+  name: atomic_refcell
+  version: 0.1.4
+  revision: 76069f44745966b6fc4434ee0803bb364fafa923
+  digest: eCyxtJzX9uSdzs-VL7-KG8LFCQJPXo54RV2LAzXrGxg
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: "It mostly looks to do what it says and seems well written. The previous issue resolved.\n"
+----- SIGN CREV PROOF -----
+zekpTARbgRa8PJnXkb_8Q5P7HaN5YqVtKT1Ua2jtCBPY0i5ZL5Amgu-Gb9gJNcYOrs3IKFpkc6Rvz9FeckuADg
+----- END CREV PROOF -----
+
