@@ -50,3 +50,49 @@ comment: "The code is trivial and looks good enough for creating hashes given al
 OQr86_lL6-b-Vp4VbvJi1sVk0M06R-0GPsxEshAYF8KBQqnni3nYjvdlcWE5sUKYykKYWkX86NeQAxDaUtnADw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-11-22T20:29:33.062023851+01:00"
+from:
+  id-type: crev
+  id: WJlSxaMnJ7GLdgFZKR_JrivA9KmmEZO806KlZZHHkyg
+  url: "https://github.com/vorner/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: take_mut
+  version: 0.2.2
+  digest: JUynnuTS3tglX7Sb0vHUqHkX1PhGTrTtiMN4txyDA_w
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: neutral
+issues:
+  - id: "https://github.com/Sgeo/take_mut/pull/10"
+    severity: medium
+    comment: ""
+comment: |-
+  The whole idea of the crate -- having a variable unitialized for a while,
+  then return something back later on seems a bit unnatural for the whole Rust
+  type system. This can be seen by the fact that certain cornercases are
+  handled by not merely panicking, but outright aborting the whole process.
+  
+  I didn't manage to find a way to break safety guarantees using the crate and
+  I tried to find a loophole quite hard. But considering how questionable
+  things it does, I'd really like to see some kind of proof or semi-formal
+  argument saying why it is safe. Such thing is not included in the source
+  code, unfortunately.
+  
+  The repository doesn't seem to have a recent activity and the last release is
+  2 years ago, but it's hard to say if it's abandoned or simply considered
+  finished.
+  
+  I've also found a resource leak (that is somewhat unlikely to get triggered
+  in real-world usage).
+  
+  Therefore, I'd be somewhat wary using this myself and would need a good
+  reason to reach for this crate -- certainly not just for convenience.
+----- SIGN CREV PROOF -----
+ANR7E-2LBhl0WYoTIrUp-oE1V3ZhCVVL0bChnQ0bMaUw0mz2k5bBQJMXBR84MDqFViq2-VuOdMPo_txrkqkdDw
+----- END CREV PROOF -----
+
