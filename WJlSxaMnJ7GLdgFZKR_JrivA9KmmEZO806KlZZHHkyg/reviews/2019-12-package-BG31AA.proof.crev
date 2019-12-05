@@ -1,0 +1,31 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2019-12-05T13:52:20.868510974+01:00"
+from:
+  id-type: crev
+  id: WJlSxaMnJ7GLdgFZKR_JrivA9KmmEZO806KlZZHHkyg
+  url: "https://github.com/vorner/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: ipnetwork
+  version: 0.15.1
+  revision: bdaa8a7843d23b9f96495e5d0649d60057358154
+  digest: Fz40FIrelQM5UQI84IMOphZNZovQVpHYD3Z3ZCkp-PM
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |-
+  Reasonably simple code, nothing fancy. Something you could write yourself if
+  you really needed and it wouldn't be that much work, but that's the whole
+  point of the crate that you don't have to repeat the easy code. With adequate
+  amount of testing. Seems to be working OK.
+  
+  I'd also go as far as to say the declared WIP status is somewhat outdated.
+  Some things might still be missing, but I wouldn't be afraid to put it into
+  production and it would be unlikely to break.
+----- SIGN CREV PROOF -----
+X38b_eOWKb-2B_YdK8t6prsn0GmlEGf_u3oBFAzAiB-mqirRon-12Y-ndLVF4LIT_0hv4q1wSIycGEIvEKu_Aw
+----- END CREV PROOF -----
+
